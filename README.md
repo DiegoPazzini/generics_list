@@ -2,7 +2,7 @@
 
 Os generics em Java é um recurso que permite adicionar tipos parametrizados a classes, interfaces e métodos. Eles permitem que seja definido tipos específicos que serão usados em um código, o que pode aumentar a segurança de tipo e reutilização de código.
 
-No código desse projeto, `` é o tipo parametrizado usado para criar uma lista de objetos do tipo `carro`. Isso significa que a lista só pode conter objetos do tipo `carro` ou de suas subclasses. O uso de generics também permite que você especifique o tipo de retorno em declarações de método e evita a necessidade de fazer castings.
+No código desse projeto, a classe Carro é o tipo parametrizado usado para criar uma lista de objetos do tipo `carro`. Isso significa que a lista só pode conter objetos do tipo `carro` ou de suas subclasses. O uso de generics também permite que você especifique o tipo de retorno em declarações de método e evita a necessidade de fazer castings.
 
 Por exemplo, a linha `list listadecarros = new arraylist<>();` declara uma lista de objetos do tipo `carro`. Isso garante que a lista só pode conter objetos do tipo `carro` ou de suas subclasses. Sem o uso de generics, seria necessário fazer um casting ao obter um objeto da lista, o que poderia causar erros de tempo de execução se o objeto não fosse do tipo esperado.
 
